@@ -1,1 +1,3 @@
 # DI-Pairs
+In order to make model understand the transformation rules and solve the scarcity of similar dataset, we create the declaration-interrogation sentence pairs dataset based on the SimpleQuestion dataset\cite{bordes2015large}, called DI-Pairs.
+The SimpleQuestion is a dataset including concise questions, which are originally aimed to train the question-answering(QA) model. We chose this data set as the basis for improvement because its simplicity meets our early requirements from simple to complex methods. After a series of rule-based operations, we create the declaration answer of the test set of SimpleQuestion and make the question and answer pairs over 17,000 amount. 
